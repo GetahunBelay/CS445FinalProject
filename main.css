@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(19, 6, 6);
+}
+.container {
+    /* margin-top: 10px; */
+    background-color: rgb(47, 62, 94);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(61, 42, 42); */
+}
+
+#header #right {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header #search {
+    display: none;
+}
+
+#header #logout-div {
+    display: none;
+}
+
+#errormessage {
+    color: red;
+}
+/* #left{
+    width: 75px;
+    height: 75px;
+} */
+img{
+    width: 50px;
+    height: 50px;
+}
+h3{
+    color: rgb(42, 129, 129);
+}
+#final {
+    background-color: rgb(90, 65, 65);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#search-input{
+    height: 40px;
+}
+#playList{
+    background-color: lightslategray;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    /* width: 1000px;
+    margin-right: 385px;*/
+} 
+/* #loginBtn #logoutBtn{
+    background-color: yellow;
+} */
+#username #password
+         #loginBtn 
+#logoutBtn{
+    height: 80px;
+}
+/* #final, #playList{
+    background-color: black;
+    color: white;
+    margin-left: 385px;
+    margin-right: 385px;
+} */
+.footer{
+    color: white;
+    margin-left: 185px;
+    margin-right: 185px;
+   
+} 
+#audio{
+    width: 100%;
+    background-color: yellowgreen; 
+    
+}
+#h2List, #h2Int{
+text-align: left;
+color: beige;
+}
+#welcome{
+    text-align: center;
+    color: purple;
+}
+#body{
+    margin-left: 185px;
+    margin-right: 185px;
+}
+#plusSign #playSign{
+    width: 20px;
+    height: 20px;
+}
+
+tr{
+    height: 10px;
+}
+/* ////////////////////////////////////////////////////////////////// */
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIU Music Station</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="./main.css" rel="stylesheet" type="text/css" />
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <header id="header">
+                <div><img id="left" src="/CS445FinalProject/Headphone.jpg"></div>
+                <div id="right">
+                    <div id="search">
+                        <input id="search-input" placeholder="search">
+                        <button id="search1" class="btn btn-primary" onclick="search()">Search</button>
+                    </div>
+                    <div id="login-div">
+                        <input id="username">
+                        <input id="password">
+                        <button class="btn btn-primary" id="loginBtn">Login</button>
+                        <div id="errormessage"></div>
+                    </div>
+                    <div id="logout-div">
+                        <button class="btn btn-primary" id="logoutBtn">Logout</button>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div id="body">
+            <h2 id="welcome">Welcome to MIU Music Station
+            </h2>
+            <h2 id="h2Int">Interesting Songs</h2>
+
+            <div id="content">
+            </div>
+            <div id="final">
+            </div>
+            <h2 id="h2List">My Playlist</h2>
+            <div id="playList">
+            </div>
+        </div>
+    </div>
+</body>
+<div class="footer">
+    <audio controls id="audio">
+        <source src="" type="audio/mpeg">
+    </audio>
+</div>
+
+</html>
